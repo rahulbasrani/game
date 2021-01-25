@@ -9,7 +9,7 @@
 }
 .block h1{
   font-size: 4vw;
-  color: antiquewhite;
+  color: rgb(90, 63, 25);
   font-family: Castellar, Arial, Helvetica, sans-serif;
 }
 .look{
@@ -23,4 +23,162 @@ h2{
   font-family: cursive, Arial, Helvetica, sans-serif; 
   font-size: 2vw;
   color: brown;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #26D19B;
+  height: 100px;
+  padding: 0 40px;
+  margin: 40px 0;
+}
+
+.header::after {
+  display: none;
+}
+.header span {
+  color: #0055a7;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 16px;
+  font-family: 'Indie Flower', cursive;
+  padding: 3vh;
+}
+#rules {
+  padding: 15px;
+  max-width: 608px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.box {
+  
+  box-shadow: 0px 4px 8px #dce1eb;
+  border-radius: 8px;
+}
+.boxr {
+  
+  box-shadow: 0px 4px 8px #cad2e4;
+  background-color: whitesmoke;
+  border-radius: 8px;
+}
+.imgss{
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px #dce1eb;
+}
+.card {
+  text-align: center;
+  padding-bottom: 16px;
+  width: auto;
+  margin-bottom: 16px;
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.pokemon-img {
+  width: 192px;
+  height: auto;
+}
+
+.memory {
+  margin: 0 auto;
+  max-width: 608px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #eceff5;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 32px;
+  color: #0055a7;
+  margin-bottom: 8px;
+}
+
+h3 {
+  color: #0055a7;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  color: #8192a3;
+}
+
+body {
+  margin:0px;
+  font-family:'Roboto';
+  text-align:center;
+}
+
+#container {
+  text-transform: uppercase;
+  font-size:30px;
+  font-weight:bold; 
+  position:fixed;
+  width:100%;
+  bottom:84.5%;
+  display:block;
+  margin-left: -7vw;
+}
+
+#flip {
+  height:50px;
+  overflow:hidden;
+  
+}
+
+#flip > div > div {
+  color:#fff;
+  padding:4px 12px;
+  height:50px;
+  margin-bottom:45px;
+  box-shadow: 0px 4px 8px #dce1eb;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#flip div div {
+  background:#1778FF;
+  
+}
+#flip div:first-child div {
+  background:transparent;
+  
+}
+#flip div:last-child div {
+  background:#FF653B;
+  
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+body{
+  background-color: ;
 }

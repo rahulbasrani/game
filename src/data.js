@@ -1,42 +1,42 @@
 export const Data = [
     {
         id: 0,
-        image: '/images/naruto.jpg'
+        image: '/images/dance1.jpg'
     },
     {
         id: 1,
-        image: '/images/sasuke.png'
+        image: '/images/dance2.jpg'
     },
     {
         id: 2,
-        image: '/images/kakashi.png'
+        image: '/images/dance3.jpg'
     },
     {
         id: 3,
-        image: '/images/sakura.jpg'
+        image: '/images/dance4.jpg'
     },
     {
         id: 4,
-        image: '/images/hinata.jpg'
+        image: '/images/dance5.jpeg'
     },
     {
         id: 5,
-        image: '/images/neji.jpg'
+        image: '/images/dance6.png'
     },
     {
         id: 6,
-        image: '/images/shikamaru.jpg'
+        image: '/images/dance7.jpg'
     },
     {
         id: 7,
-        image: '/images/gara.jpg'
+        image: '/images/dance8.jpg'
     },
     {
         id: 8,
-        image: '/images/rocklee.jpg'
+        image: '/images/dance9.jpg'
     },
     {
         id: 9,
-        image: '/images/pervysage.jpg'
+        image: '/images/dance10.jpg'
     }
 ]

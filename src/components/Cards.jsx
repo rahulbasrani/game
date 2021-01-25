@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import {Data} from '../data';
 import {Card,CardImg} from 'reactstrap';
+import Header from './Header';
+import Rules from './Rules';
 
 export default function Cards(props){
     const [Cardp] = useState(Data);
@@ -30,14 +32,14 @@ export default function Cards(props){
             setClicked([...Clicked,y]);
             randomimg();
             setScore(Score+1);
+            document.body.style.backgroundColor='wheat' ;
         }
         else{
-            alert("Believe it! Your score is :" + Score);
-            // window.location.reload();
             if(Highscore<Score)
                 setHighscore(Score);
             setScore(0);
             setClicked([]);
+            document.body.style.backgroundColor = 'red';
         }
     }
 
@@ -56,10 +58,10 @@ export default function Cards(props){
     });
     return(
         <div className="container">
-            <div className="row">
-                <h2>Score: {Score}</h2>
-                <h2>Highscore: {Highscore}</h2>
-            </div><br/><br/>
+            
+                <Header lastScore={Highscore} score={Score}/>
+            
+            <Rules/>
             <div className="row">
                 {list}
             </div>
