@@ -7,8 +7,7 @@ const Header=(props)=>{
       <img className="imgss" src={Logo} alt={'logo'} height="100" width="100"/>
       <div className="cntrs">
       <div id="container">
-               
-            <div id="flip">
+        <div id="flip">
                 <div><div>Memory{`🧠`}</div></div>
                 <div><div>Play{`🎮`}</div></div>
                 <div><div>Win{`🍾`}</div></div>
