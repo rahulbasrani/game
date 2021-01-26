@@ -130,7 +130,7 @@ body {
   text-transform: uppercase;
   font-size:30px;
   font-weight:bold; 
-  position:fixed;
+  position: absolute;
   width:100%;
   bottom:84.5%;
   display:block;
@@ -140,7 +140,7 @@ body {
 #flip {
   height:50px;
   overflow:hidden;
-  
+  position:relative;
 }
 
 #flip > div > div {
@@ -178,7 +178,4 @@ body {
   71% {margin-top:0px;}
   99.99% {margin-top:0px;}
   100% {margin-top:-270px;}
-}
-body{
-  background-color: ;
 }
